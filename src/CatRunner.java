@@ -17,6 +17,7 @@ public class CatRunner {
         System.out.println(catReplaced);
         cats.get(1).setName(cats.get(1).getName() + " Meow");
         System.out.println(cats);
+        System.out.println(cats.get(2).getName());
 
     }
 }
